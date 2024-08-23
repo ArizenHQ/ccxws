@@ -56,5 +56,8 @@
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
+  },
+  "npm": {
+    "publish": false
   }
 }
