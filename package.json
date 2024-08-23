@@ -13,15 +13,13 @@
   ],
   "author": "Brian Mancini <bmancini@gmail.com>",
   "license": "MIT",
-  "main": "dist/src/index.js",
+  "main": "src/index.js",
   "scripts": {
-    "prepublish": "npm run build",
-    "build": "tsc",
     "release": "release-it",
     "format:fix": "prettier --write  \"src/**\" \"__tests__/**\"",
     "format": "prettier --check \"src/**\" \"__tests__/**\"",
     "lint": "eslint src __tests__",
-    "test": "nyc --reporter=lcov --reporter=text --extension=.ts mocha --require ts-node/register --recursive \"__tests__/**/*.spec.ts\""
+    "test": "nyc --reporter=text mocha --recursive \"__tests__\""
   },
   "repository": "git+ssh://git@github.com/ArizenHQ/ccxws.git",
   "dependencies": {
@@ -33,26 +31,12 @@
     "ws": "^8.18.0"
   },
   "devDependencies": {
-    "@types/chai": "^4.2.18",
-    "@types/mocha": "^10.0.7",
-    "@types/node": "^22.5.0",
-    "@types/semaphore": "^1.1.1",
-    "@types/sinon": "^17.0.3",
-    "@types/ws": "^8.5.12",
-    "@typescript-eslint/eslint-plugin": "^8.2.0",
-    "@typescript-eslint/parser": "^8.2.0",
-    "chai": "^5.1.1",
-    "eslint": "^9.9.0",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-import": "^2.23.3",
-    "eslint-plugin-prefer-arrow": "^1.2.3",
-    "mocha": "^10.7.3",
-    "nyc": "^17.0.0",
-    "prettier": "^3.3.3",
-    "release-it": "^17.6.0",
-    "sinon": "^18.0.0",
-    "ts-node": "^10.0.0",
-    "typescript": "^5.5.4"
+    "chai": "^4.2.0",
+    "eslint": "^5.16.0",
+    "mocha": "^6.2.3",
+    "nyc": "^15.1.0",
+    "prettier": "^1.19.1",
+    "sinon": "^7.5.0"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
