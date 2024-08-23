@@ -9,7 +9,7 @@ const Level3Point = require("../level3-point");
 const Level3Update = require("../level3-update");
 
 class CoinbaseProClient extends BasicClient {
-  constructor({ wssPath = "wss://ws-feed.pro.coinbase.com", watcherMs } = {}) {
+  constructor({ wssPath = "wss://ws-feed.exchange.coinbase.com", watcherMs } = {}) {
     super(wssPath, "CoinbasePro", undefined, watcherMs);
     this.hasTickers = true;
     this.hasTrades = true;
