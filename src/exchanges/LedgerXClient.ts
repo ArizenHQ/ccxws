@@ -17,6 +17,10 @@ export type LedgerXClientOptions = ClientOptions & {
     apiKey?: string;
 };
 
+interface LedgerXResponse {
+    data: any; // Adjust the type as per the actual response structure
+}
+
 /**
  * LedgerX is defined in https://docs.ledgerx.com/reference#connecting
  * This socket uses a unified stream for ALL market data. So we will leverage
@@ -164,7 +168,8 @@ export class LedgerXClient extends BasicClient {
     protected async _requestLevel3Snapshot(market) {
         try {
             const uri = `https://trade.ledgerx.com/api/book-states/${market.id}?token=${this.apiKey}`;
-            const { data } = await https.get(uri);
+            const response: LedgerXResponse = await https.get(uri);
+            const { data } = response;
             const sequenceId = data.clock;
             const asks = [];
             const bids = [];

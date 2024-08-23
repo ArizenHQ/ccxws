@@ -86,7 +86,8 @@ export class KrakenClient extends BasicClient {
    */
     public async loadSymbolMaps() {
         const uri = "https://api.kraken.com/0/public/AssetPairs";
-        const { result } = await https.get(uri);
+        const response = await https.get(uri) as { result: Record<string, any> };
+        const { result } = response;
         for (const symbol in result) {
             const restName = symbol;
             const wsName = result[symbol].wsname;
