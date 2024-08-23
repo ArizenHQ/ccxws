@@ -1,6 +1,6 @@
 {
   "name": "ccxws",
-  "version": "0.47.0",
+  "version": "0.48.0",
   "description": "Websocket client for 37 cryptocurrency exchanges",
   "keywords": [
     "bitmex",
@@ -55,6 +55,6 @@
     "typescript": "^5.5.4"
   },
   "publishConfig": {
-      "registry": "https://npm.pkg.github.com"
-    }
+    "registry": "https://npm.pkg.github.com"
+  }
 }
