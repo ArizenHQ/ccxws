@@ -53,5 +53,8 @@
     "sinon": "^18.0.0",
     "ts-node": "^10.0.0",
     "typescript": "^5.5.4"
-  }
+  },
+  "publishConfig": {
+      "registry": "https://npm.pkg.github.com"
+    }
 }
