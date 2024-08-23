@@ -65,3 +65,6 @@ test*.ts
 
 dist
 coverage
+
+
+.npmrc
