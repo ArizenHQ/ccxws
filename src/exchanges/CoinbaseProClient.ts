@@ -18,7 +18,7 @@ import { Ticker } from "../Ticker";
 import { Trade } from "../Trade";
 
 export class CoinbaseProClient extends BasicClient {
-    constructor({ wssPath = "wss://ws-feed.pro.coinbase.com", watcherMs }: ClientOptions = {}) {
+    constructor({ wssPath = "wss://ws-feed.exchange.coinbase.com", watcherMs }: ClientOptions = {}) {
         super(wssPath, "CoinbasePro", undefined, watcherMs);
         this.hasTickers = true;
         this.hasTrades = true;
