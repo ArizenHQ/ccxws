@@ -4254,7 +4254,7 @@ const RAW_RUNTIME_STATE =
           ["@sinonjs/text-encoding", "npm:0.7.3"],\
           ["just-extend", "npm:4.2.1"],\
           ["lolex", "npm:5.1.2"],\
-          ["path-to-regexp", "npm:1.8.0"]\
+          ["path-to-regexp", "npm:1.9.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4769,10 +4769,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["path-to-regexp", [\
-      ["npm:1.8.0", {\
-        "packageLocation": "../../.yarn/berry/cache/path-to-regexp-npm-1.8.0-a1904f5c44-10c0.zip/node_modules/path-to-regexp/",\
+      ["npm:1.9.0", {\
+        "packageLocation": "../../.yarn/berry/cache/path-to-regexp-npm-1.9.0-723549d8d9-10c0.zip/node_modules/path-to-regexp/",\
         "packageDependencies": [\
-          ["path-to-regexp", "npm:1.8.0"],\
+          ["path-to-regexp", "npm:1.9.0"],\
           ["isarray", "npm:0.0.1"]\
         ],\
         "linkType": "HARD"\
