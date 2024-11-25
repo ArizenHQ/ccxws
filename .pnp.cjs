@@ -1532,10 +1532,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["cross-spawn", [\
-      ["npm:6.0.5", {\
-        "packageLocation": "../../.yarn/berry/cache/cross-spawn-npm-6.0.5-2deab6c280-10c0.zip/node_modules/cross-spawn/",\
+      ["npm:6.0.6", {\
+        "packageLocation": "../../.yarn/berry/cache/cross-spawn-npm-6.0.6-a983639a0d-10c0.zip/node_modules/cross-spawn/",\
         "packageDependencies": [\
-          ["cross-spawn", "npm:6.0.5"],\
+          ["cross-spawn", "npm:6.0.6"],\
           ["nice-try", "npm:1.0.5"],\
           ["path-key", "npm:2.0.1"],\
           ["semver", "npm:5.7.2"],\
@@ -2090,7 +2090,7 @@ const RAW_RUNTIME_STATE =
           ["@babel/code-frame", "npm:7.24.7"],\
           ["ajv", "npm:6.12.6"],\
           ["chalk", "npm:2.4.2"],\
-          ["cross-spawn", "npm:6.0.5"],\
+          ["cross-spawn", "npm:6.0.6"],\
           ["debug", "virtual:91d3d3fc21bdb6d43edb8362a394f3ac52a0d23a826cbc829a24c55458a2c4064289b1f6220535416fd5492a210a1e2426afa7ee3c1e2b129c906a88bf6a2aae#npm:4.3.6"],\
           ["doctrine", "npm:3.0.0"],\
           ["eslint-scope", "npm:4.0.3"],\
